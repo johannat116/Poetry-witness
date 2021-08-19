@@ -1,12 +1,14 @@
 import React from 'react'
 
+
+
 const Header = () => {
     return (
-        <Header>
-            <h1>Hello</h1>
+        <div>
             
+           <h1>hello button</h1>
             
-        </Header>
+        </div>
     )
 }
 
