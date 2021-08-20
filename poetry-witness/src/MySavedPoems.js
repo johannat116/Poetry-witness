@@ -1,7 +1,7 @@
 
 const MySavedPoems = () => {
     return (
-        <div>
+        <div className="savedpoems">
           
         </div>
     )

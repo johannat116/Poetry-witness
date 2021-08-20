@@ -1,4 +1,8 @@
 import React, {useState} from 'react'
+import Proptypes from 'prop-types'
+
+
+import Fetchbutton from './Fetchbutton';
 
 function FetchAPI() {
 const [data, setData] = useState([]);
@@ -17,24 +21,18 @@ const apiGet = () => {
       
             <br />
 
-            <button onClick={apiGet} style= {{
-                font:'inherit',
-                cursor:'pointer',
-                border: '1px solid blue',
-                background: 'blue',
-                color: 'white',
-                
-
-            }}> Random Poem
-            
-            
+            <div className="poembuton">
+            <button onClick={apiGet} > Random Poem
             </button>
+            </div>
+
             <br/>
            {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
-<div>
-    <ul >
+
+    <div className= "returnspoem">
+    <ul className="returnspoem">
         {data.slice (0,1).map ((item) => (
-            <li key={item.id} >
+            <li key={item.id}  className="fetchpoem">
                 Name: {item.title}  | Poet: {item.poet.name} | {item.content}
             
 </li>
@@ -44,12 +42,9 @@ const apiGet = () => {
         ))}
     </ul>
 
-
-  
-  
+<button>Bookmark</button>
 
 
-  
 </div>
         </div>
     )

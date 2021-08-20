@@ -9,23 +9,16 @@ import Login from './Login';
 function App() {
   return (
     <Router>
-    <div  className= "container"
-    style={{
-      width:'90%',
-      maxWidth: '40rem',
-      margin: '2rem auto',
-      border: '1px solid #ccc',
-      padding: '1rem'
-  
-
-    }}
->
+    <div  className= "container">
 <Header />
-<FetchAPI />
+<div className="Navcontainer">
 <Route path= '/about'  component={About}/>
 <Route path='/Login' component={Login}/>
 <Navigation />
-
+<div className="fetchbuttons">
+<FetchAPI />
+</div>
+</div>
     </div>
     </Router>
   );

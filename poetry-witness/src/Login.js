@@ -8,7 +8,7 @@ const Login = () => {
 
         <div>
             
-            <a href="/MySavedPoems">My Saved Poems</a>
+            <a href="/MySavedPoems" className="account">My Saved Poems</a>
             <Route path ='/MySavedPoems' component={MySavedPoems}/>
             <MySavedPoems/>
 
