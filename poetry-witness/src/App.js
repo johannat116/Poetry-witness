@@ -5,11 +5,17 @@ import Header from "./Header"
 import Navigation from './Navigation';
 import About from './About'
 import Login from './Login';
+import PropTypes from 'prop-types'
+import buttons from './buttons';
 
 function App() {
   return (
     <Router>
     <div  className= "container">
+<div className= "bookmark">
+  <buttons/>
+</div>
+
 <Header />
 <div className="Navcontainer">
 <Route path= '/about'  component={About}/>
@@ -20,6 +26,7 @@ function App() {
 </div>
 </div>
     </div>
+    
     </Router>
   );
 }

@@ -4,8 +4,9 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: none;
   margin-right: 30px;
-
+  
 }
+
 
 .Navigation-space{
   margin-top: 0px;
@@ -15,6 +16,7 @@
   position:fixed;
   background-color: rgb(178, 249, 107);
   height: 600px;
+  
 }
 
 .container {

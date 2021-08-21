@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
-import Proptypes from 'prop-types'
+import PropTypes from 'prop-types'
+import Buttons from './Buttons'
 
-
-import Fetchbutton from './Fetchbutton';
 
 function FetchAPI() {
 const [data, setData] = useState([]);
@@ -27,6 +26,8 @@ const apiGet = () => {
             </div>
 
             <br/>
+
+            <Buttons/>
            {/* <pre>{JSON.stringify(data, null, 2)}</pre> */}
 
     <div className= "returnspoem">
@@ -36,13 +37,23 @@ const apiGet = () => {
                 Name: {item.title}  | Poet: {item.poet.name} | {item.content}
             
 </li>
-
-                        
-          
-        ))}
+   ))}
     </ul>
+<button color= "red "></button>
 
-<button>Bookmark</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
