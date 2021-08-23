@@ -9,13 +9,14 @@
 
 
 .Navigation-space{
-  margin-top: 0px;
-  margin-bottom: 100px;
-  margin-right: 10px;
-  margin-left: 800px;
-  position:fixed;
+  position: absolute;
+  width: 200px;
   background-color: rgb(178, 249, 107);
-  height: 600px;
+  height: 1000px ;
+  margin-bottom: 500px;
+  margin-left: 800px;
+
+
   
 }
 
@@ -23,48 +24,41 @@
 
   margin-top: 20px;
   margin-left: 100px;
-  height: 600px;
-  width: 800px;
+  height: 1000px;
+  width: 1000px;
   position:relative;
-  background-color: bisque;
-  
+
 }
 
 .header{
-position: fixed;
+position: relative;
 margin-left: 0px;
-margin-bottom: 100px;
+margin-bottom: 0px;
 background-color:lavender;
 height:30px;
-width: 800px;
+width: 1000px;
 }
 
 .navcontainer{
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 2.5rem;
   position: fixed;
   z-index: 1;
   width: 100%;
-  margin-bottom: 200px;
-  margin-top:10px;
+  margin-top:0px;
   margin-left: 400px;
   
 
 }
 
 .fetchpoem{
-  position: relative;
-  width: 50%;
+  position: fixed;
+  width: 30%;
   height: 30%;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: -440px;
-  margin-left: -300px;
+  margin-top: -380px;
+  margin-left: -350px;
   margin-right: 10px;
-
-  border-color: azure;
-
-
 }
 
 .about {
@@ -72,6 +66,8 @@ width: 800px;
   margin-top: 50px;
   margin-left: 150px;
   margin-top: 100px;
+  height: 500px;
+  width: 600px
 }
 
 .returnspoem{
@@ -93,3 +89,44 @@ margin-left: 425px;
   margin-top: 500px;
   margin-left: 425px;
 }
+
+.title {
+font-size: 25px;
+padding-bottom: 20px;
+width: 400%;
+margin-right: 175px;
+
+}
+
+.Poet{
+  font-size: 20px;
+  padding-bottom: 20px;
+  width: 400%;
+
+
+
+}
+
+.content{
+  width: 150%;
+  background-color: beige;
+  scroll-behavior:smooth;
+  height: relative;
+  position: relative;
+  
+
+}
+
+.bookmarkbutton{
+ margin-left: 200px;
+ margin-bottom: -180px ;
+ margin-top: -10px;
+ position:relative;
+}
+
+.poembutton{
+  margin-left:-250px;
+  position:relative;
+
+}
+

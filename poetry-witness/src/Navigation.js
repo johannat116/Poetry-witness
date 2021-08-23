@@ -5,7 +5,7 @@ const Navigation = () => {
             <div className= 'Navigation' >
             <ul>
                 <a href="/About">About</a> <br/>
-                <a href= "/Login"> Bookmarks</a> 
+                <a href= "/Login"> Poem Directory</a> 
                 
             </ul>
             </div>
