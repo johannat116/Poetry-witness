@@ -22,6 +22,7 @@ handleChange =(e) => {
 handleSubmit =(e) => {
     e.preventDefault()
 console.log(this.state)
+
 }
 
 
@@ -31,6 +32,7 @@ console.log(this.state)
         return (
             <div>
             <form onSubmit ={this.handleSubmit}>
+             
 
          <div >
     <label>Name</label>
@@ -67,13 +69,6 @@ onChange={this.handleChange}
 </form>
 
          </div>
-
-
-
-
-
-
-
 
 
 
