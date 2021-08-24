@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import Logo from './bee.png'
 
 
 
@@ -24,10 +25,14 @@ const apiGet = () => {
         
 
             <div className="poembutton">
-            <button onClick={apiGet} > Random Poem
-            </button>
+          
+
+          
+           <button className="beebutton"  onClick={apiGet}><img src={(Logo)} ></img></button>
+           <h1 className="beebuttonname">Click to generate a poem</h1>
             </div>
-            
+          
+        
 
             <br/>
 

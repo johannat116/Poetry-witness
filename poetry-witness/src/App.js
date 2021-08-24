@@ -54,7 +54,6 @@ useEffect (() => {
 <div className="Navcontainer"
  >
 
-
 <Route path= '/about'  component={About}/>
 
 <Route path='/Login' component={Login}/>

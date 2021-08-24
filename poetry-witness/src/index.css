@@ -3,7 +3,8 @@
 .Navigation{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: 300px;
+  
   
 }
 
@@ -11,7 +12,7 @@
 .Navigation-space{
   position: absolute;
   width: 200px;
-  background-color: rgb(178, 249, 107);
+  background-color: whitesmoke;
   height: 1000px ;
   margin-bottom: 500px;
   margin-left: 800px;
@@ -26,12 +27,14 @@
   margin-left: 100px;
   height: 1000px;
   width: 1000px;
-  position:relative;
+  position:absolute;
+overflow-x: scroll;
+overflow-y: scroll;
 
 }
 
 .header{
-position: relative;
+position: fixed;
 margin-left: 0px;
 margin-bottom: 0px;
 background-color:lavender;
@@ -53,12 +56,13 @@ width: 1000px;
 
 .fetchpoem{
   position: fixed;
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: -380px;
-  margin-left: -350px;
+  margin-top: -280px;
+  margin-left: -280px;
   margin-right: 10px;
+  overflow-y: scroll;
 }
 
 .about {
@@ -67,7 +71,11 @@ width: 1000px;
   margin-left: 150px;
   margin-top: 100px;
   height: 500px;
-  width: 600px
+  width: 500px;
+  background-repeat:no-repeat;
+  background-color: thistle;
+  opacity: 0.7;
+  
 }
 
 .returnspoem{
@@ -86,33 +94,39 @@ margin-left: 425px;
 
 .fetchbuttons{
   position: fixed;
-  margin-top: 500px;
+  margin-top: 325px;
   margin-left: 425px;
 }
 
 .title {
 font-size: 25px;
 padding-bottom: 20px;
-width: 400%;
+width: 80%;
 margin-right: 175px;
+background-color: beige;
+opacity:0.8;
+
 
 }
 
 .Poet{
   font-size: 20px;
   padding-bottom: 20px;
-  width: 400%;
+  width: 80%;
+  background-color:beige;
+  opacity: 0.8;
 
 
 
 }
 
 .content{
-  width: 150%;
+  width: 80%;
   background-color: beige;
   scroll-behavior:smooth;
   height: relative;
   position: relative;
+  opacity: 0.8;
   
 
 }
@@ -130,3 +144,58 @@ margin-right: 175px;
 
 }
 
+
+.headerbutton{
+  background-color: transparent;
+  border: none;
+  margin-bottom: 30px;
+  height: 30px;
+ position: fixed;
+ padding:0;
+}
+
+.apibutton{
+  background-color: transparent;
+  border: none;
+
+
+}
+
+.beebutton{
+  background-color: transparent;
+  margin-left: 600px;
+  border: none;
+  margin-bottom: -600px;
+  margin-top: -100px;
+  margin-right: -200px ;
+  
+ 
+}
+
+.beebuttonname{
+  margin-left: 650px;
+  padding-top: 0px;
+  margin-top: -50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: small;
+  background-color:transparent;
+  background-size: contain;
+  border-radius: 20%;
+}
+
+.aboutnavstyle{
+  padding-bottom: 50px;
+  border-width: 30px;
+  background-color: burlywood;
+  background-size: contain;
+  padding-left: 0px;
+ 
+}
+
+.aboutbuttonlogo{
+  background-color: transparent;
+  border:none;
+  width: 20px;
+  height:20pxl
+}
